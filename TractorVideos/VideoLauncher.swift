@@ -13,7 +13,7 @@ class VideoPlayerView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        backgroundColor = UIColor.black
+        backgroundColor = UIColor.yellow
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -28,7 +28,7 @@ class VideoLauncher: NSObject {
         
         if let keyWindow = UIApplication.shared.keyWindow {
             let view = UIView(frame: keyWindow.frame)
-            view.backgroundColor = UIColor.red
+            view.backgroundColor = UIColor.white
             
             view.frame = CGRect(x: keyWindow.frame.width - 10, y: keyWindow.frame.height - 10, width: 10, height: 10)
             
