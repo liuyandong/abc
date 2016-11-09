@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		742C9A3A1DC6C976008D7C60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742C9A391DC6C976008D7C60 /* AppDelegate.swift */; };
-		742C9A3C1DC6C976008D7C60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742C9A3B1DC6C976008D7C60 /* ViewController.swift */; };
+		742C9A3C1DC6C976008D7C60 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742C9A3B1DC6C976008D7C60 /* HomeController.swift */; };
 		742C9A3F1DC6C976008D7C60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 742C9A3D1DC6C976008D7C60 /* Main.storyboard */; };
 		742C9A411DC6C976008D7C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 742C9A401DC6C976008D7C60 /* Assets.xcassets */; };
 		742C9A441DC6C976008D7C60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 742C9A421DC6C976008D7C60 /* LaunchScreen.storyboard */; };
 		742C9A4F1DC6C977008D7C60 /* TractorVideosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742C9A4E1DC6C977008D7C60 /* TractorVideosTests.swift */; };
 		742C9A5A1DC6C977008D7C60 /* TractorVideosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742C9A591DC6C977008D7C60 /* TractorVideosUITests.swift */; };
+		742C9A6A1DC6E5F6008D7C60 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742C9A691DC6E5F6008D7C60 /* BaseCell.swift */; };
+		742C9A6C1DC7050A008D7C60 /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742C9A6B1DC7050A008D7C60 /* MenuBar.swift */; };
+		F5378FA81DC97132009DB989 /* MenuBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5378FA71DC97132009DB989 /* MenuBarCell.swift */; };
+		F5378FAA1DC97F70009DB989 /* HomeVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5378FA91DC97F70009DB989 /* HomeVideoCell.swift */; };
+		F5378FAC1DC99A5B009DB989 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5378FAB1DC99A5B009DB989 /* CustomImageView.swift */; };
+		F5378FB01DC9D184009DB989 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5378FAF1DC9D184009DB989 /* Video.swift */; };
+		F5AEA50E1DC82A110085F944 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AEA50D1DC82A110085F944 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,7 @@
 /* Begin PBXFileReference section */
 		742C9A361DC6C976008D7C60 /* TractorVideos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TractorVideos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		742C9A391DC6C976008D7C60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		742C9A3B1DC6C976008D7C60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		742C9A3B1DC6C976008D7C60 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		742C9A3E1DC6C976008D7C60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		742C9A401DC6C976008D7C60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		742C9A431DC6C976008D7C60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,13 @@
 		742C9A551DC6C977008D7C60 /* TractorVideosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TractorVideosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		742C9A591DC6C977008D7C60 /* TractorVideosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TractorVideosUITests.swift; sourceTree = "<group>"; };
 		742C9A5B1DC6C977008D7C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		742C9A691DC6E5F6008D7C60 /* BaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		742C9A6B1DC7050A008D7C60 /* MenuBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
+		F5378FA71DC97132009DB989 /* MenuBarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuBarCell.swift; sourceTree = "<group>"; };
+		F5378FA91DC97F70009DB989 /* HomeVideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVideoCell.swift; sourceTree = "<group>"; };
+		F5378FAB1DC99A5B009DB989 /* CustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		F5378FAF1DC9D184009DB989 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		F5AEA50D1DC82A110085F944 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +111,11 @@
 		742C9A381DC6C976008D7C60 /* TractorVideos */ = {
 			isa = PBXGroup;
 			children = (
+				F5378FAE1DC9C857009DB989 /* Model */,
+				F5378FAD1DC9C847009DB989 /* Helper */,
+				742C9A681DC6E5E1008D7C60 /* View */,
+				742C9A671DC6D40E008D7C60 /* Controller */,
 				742C9A391DC6C976008D7C60 /* AppDelegate.swift */,
-				742C9A3B1DC6C976008D7C60 /* ViewController.swift */,
 				742C9A3D1DC6C976008D7C60 /* Main.storyboard */,
 				742C9A401DC6C976008D7C60 /* Assets.xcassets */,
 				742C9A421DC6C976008D7C60 /* LaunchScreen.storyboard */,
@@ -123,6 +140,42 @@
 				742C9A5B1DC6C977008D7C60 /* Info.plist */,
 			);
 			path = TractorVideosUITests;
+			sourceTree = "<group>";
+		};
+		742C9A671DC6D40E008D7C60 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				742C9A3B1DC6C976008D7C60 /* HomeController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		742C9A681DC6E5E1008D7C60 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				742C9A691DC6E5F6008D7C60 /* BaseCell.swift */,
+				742C9A6B1DC7050A008D7C60 /* MenuBar.swift */,
+				F5378FA71DC97132009DB989 /* MenuBarCell.swift */,
+				F5378FA91DC97F70009DB989 /* HomeVideoCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F5378FAD1DC9C847009DB989 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F5AEA50D1DC82A110085F944 /* Extension.swift */,
+				F5378FAB1DC99A5B009DB989 /* CustomImageView.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		F5378FAE1DC9C857009DB989 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F5378FAF1DC9D184009DB989 /* Video.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +246,7 @@
 				TargetAttributes = {
 					742C9A351DC6C976008D7C60 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = ZT4RYBAAJ2;
 						ProvisioningStyle = Automatic;
 					};
 					742C9A491DC6C977008D7C60 = {
@@ -259,7 +313,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				742C9A3C1DC6C976008D7C60 /* ViewController.swift in Sources */,
+				F5AEA50E1DC82A110085F944 /* Extension.swift in Sources */,
+				F5378FAC1DC99A5B009DB989 /* CustomImageView.swift in Sources */,
+				742C9A3C1DC6C976008D7C60 /* HomeController.swift in Sources */,
+				F5378FA81DC97132009DB989 /* MenuBarCell.swift in Sources */,
+				F5378FB01DC9D184009DB989 /* Video.swift in Sources */,
+				742C9A6A1DC6E5F6008D7C60 /* BaseCell.swift in Sources */,
+				742C9A6C1DC7050A008D7C60 /* MenuBar.swift in Sources */,
+				F5378FAA1DC97F70009DB989 /* HomeVideoCell.swift in Sources */,
 				742C9A3A1DC6C976008D7C60 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,7 +416,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -399,7 +460,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -412,6 +473,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZT4RYBAAJ2;
 				INFOPLIST_FILE = TractorVideos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bestvideos.TractorVideos;
@@ -424,6 +486,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZT4RYBAAJ2;
 				INFOPLIST_FILE = TractorVideos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bestvideos.TractorVideos;
@@ -505,6 +568,7 @@
 				742C9A601DC6C977008D7C60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		742C9A611DC6C977008D7C60 /* Build configuration list for PBXNativeTarget "TractorVideosTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +577,7 @@
 				742C9A631DC6C977008D7C60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		742C9A641DC6C977008D7C60 /* Build configuration list for PBXNativeTarget "TractorVideosUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +586,7 @@
 				742C9A661DC6C977008D7C60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
