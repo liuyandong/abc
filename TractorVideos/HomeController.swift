@@ -109,5 +109,10 @@ class HomeController: UICollectionViewController, UICollectionViewDelegateFlowLa
         return 20
     }
     
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let showVideoPlayer = VideoLauncher()
+        showVideoPlayer.showVideoPlayer()
+    }
+    
 }
 
