@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import XCDYouTubeKit
 
 class VideoPlayerView: UIView {
     
@@ -14,6 +15,12 @@ class VideoPlayerView: UIView {
         super.init(frame: frame)
         
         backgroundColor = UIColor.yellow
+        
+        let videoId = "-NSvbGxzpKk"
+        let youtubeVideoPlayer = XCDYouTubeVideoPlayerViewController(videoIdentifier: videoId)
+        youtubeVideoPlayer.present(in: self)
+        youtubeVideoPlayer.moviePlayer.play()
+        
     }
     
     required init?(coder aDecoder: NSCoder) {
